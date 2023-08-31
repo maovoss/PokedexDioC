@@ -1,0 +1,123 @@
+
+body{
+    background-color: rgb(112, 205, 233);
+}
+header{
+    padding: 15px;
+    
+}
+table{
+    width: 80%;
+}
+table tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#back_arrow{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 100%;
+    text-align: center;
+}
+#back_arrow:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+
+}
+#back_arrow img{
+    padding: auto;
+    width: 1.7rem;
+}
+
+#control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.normal{background-color: #A8A77A;} 
+.fire{background-color: #EE8130;}
+.water{background-color: #6390F0;}
+.electric{background-color: #F7D02C;}
+.grass{background-color: #7AC74C;}
+.ice{background-color: #96D9D6;}
+.fighting{background-color: #C22E28;}
+.poison{background-color: #A33EA1;}
+.ground{background-color: #E2BF65;}
+.flying{background-color: #A98FF3;}
+.psychic{background-color: #F95587;}
+.bug{background-color: #A6B91A;} 
+.rock{background-color: #B6A136;}
+.ghost{background-color: #735797;}
+.dragon{background-color: #6F35FC;}
+.dark{background-color: #705746;}
+.steel{background-color: #B7B7CE;}
+.fairy{background-color:#D685AD ;}
+
+
+
+.content{
+    margin: 0;
+    padding: 0;
+    width: 73vw;
+    height: 80vh;
+
+    border-radius: 1.2rem;
+}
+.presentation{
+    padding: 10px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.presentation .pres_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.presentation .pres_head .name{
+    color: white;
+}
+
+.presentation .pres_head #order{
+    color: #00000079;
+}
+
+.presentation img{
+    max-width: 60%;
+    justify-self: center;
+    align-self: center;
+}
+.name{
+    text-transform: capitalize;
+}
+.status{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 1rem;
+    max-height: 100%;
+}
+.status .type{
+    color: #FFFFFF;
+    filter: brightness(1.2);
+    padding: .25rem 1rem;
+    margin: .25rem 0;
+    font-size: .9rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 692px){
+    .content{
+        width: 592px;
+        height: auto;
+    }
+}
